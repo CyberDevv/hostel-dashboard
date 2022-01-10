@@ -1,7 +1,11 @@
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
+const percentage = 36;
+
 const hostelDetails = () =>(
     <div className="text-black bg-yellow-300 p-3 rounded flex flex-col gap-y-8">
-        <div className="flex justify-between items-center">
-            <h2 className="font-semibold">Hostel Name</h2>
+        <div className="flex justify-between items-center font-semibold">
+            <h2 className="">Hostel Name</h2>
             <p>+27%</p>
         </div>
         <div className="flex justify-between items-center">
@@ -10,8 +14,8 @@ const hostelDetails = () =>(
                 <p className="font-light">Occupants</p>
             </div>
             <div className="flex justify-center items-center ">
-                <div className="text-xl font-semibold border-2 rounded-full w-16 h-16 border-indigo-400  flex justify-center items-center">
-                    <p>36%</p>
+                <div className="text-lg font-semibold w-16 h-16 flex justify-center items-center">
+                    <CircularProgressbar value={percentage} text={`${percentage}%`} styles={{text:{fontSize:"1.5rem"}}}/>
                 </div>
             </div>
         </div>
