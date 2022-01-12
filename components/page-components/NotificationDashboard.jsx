@@ -51,18 +51,18 @@ const NotificationDashboard = () => {
                                     <div>
                                         <p className="subtitle1">Hostel Support</p>
                                         <div className="text-Neutral-gray">
-                                            <p className="text-xs leading-normal tracking-normal">{notification.message}</p>
+                                            <p className="text-xs leading-normal h-8 overflow-hidden tracking-normal lg:h-fit">{notification.message}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="w-1/4">
                                     <p className="body2">{notification.date}</p>
                                 </div>
-                                <div className="w-1/5 flex justify-between items-center">
-                                    <div className="bg-yellow-default w-10 rounded-full h-10 flex items-center justify-center">
-                                        <Archive/>
+                                <div className="w-1/5 flex gap-x-2 lg:gap-x-0 lg:justify-between items-center">
+                                    <div className="bg-yellow-default w-7 lg:w-10 rounded-full lg:h-10 h-7 flex items-center justify-center">
+                                        <Archive className=""/>
                                     </div>
-                                    <div className="fill-current text-white bg-Red-default w-10 rounded-full h-10 flex items-center justify-center">
+                                    <div className="fill-current text-white bg-Red-default w-7 h-7 lg:w-10 rounded-full lg:h-10 flex items-center justify-center">
                                         <Cancel className="text-white"/>
                                     </div>
                                 </div>

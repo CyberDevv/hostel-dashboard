@@ -3,10 +3,10 @@ import { CircleIntersect,Edit,MasterCardCircle } from "../SVGIcons";
 
 const CardSection = () => {
     return(
-        <div className="flex w-1/2 px-4">
+        <div className="flex w-full lg:w-1/2 px-4">
             <div className="w-full">
-                <h3 className="text-primary-Default ">Settings</h3>
-                <div className="w-11/12   py-4 my-6 px-5 flex flex-col text-white gap-y-16 bg-primary-Default rounded-xl relative ">
+                <h3 className="text-primary-Default">Settings</h3>
+                <div className="lg:w-11/12 py-4 my-6 px-5 flex flex-col text-white gap-y-16 bg-primary-Default rounded-xl relative ">
                     <div className="flex items-center justify-between">
                         <p className="subtitle1">Hostel UI</p>
                         <div>

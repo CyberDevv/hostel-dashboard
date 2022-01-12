@@ -32,7 +32,7 @@ const PaymentReceipt = () =>{
         }
     ]
     return(
-        <div className="w-1/2 bg-white rounded-xl px-4">
+        <div className="lg:w-1/2 w-full bg-white rounded-xl px-4">
             <p className="subtitle1 text-Neutral-black py-4">Receipts</p>
             {
                 receipts.map(receipt=>(

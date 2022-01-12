@@ -6,7 +6,7 @@ const HostelRevenue = () => {
             <div className="flex items-center justify-between">
                 <div className="flex items-center justify-between gap-x-4">
                     <p className="w-10 h-10 rounded-full flex items-center justify-center bg-primary-Default"><ArrowLeft/></p>
-                    <h3 className="text-primary-Default">Hostel Name</h3>
+                    <h3 className="text-primary-Default text-sm">Hostel Name</h3>
                 </div>
                 <div>
                     <UserComponent/>
