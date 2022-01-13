@@ -3,10 +3,10 @@ import { CircleIntersect,Edit,MasterCardCircle } from "./SVGIcons";
 
 const CardSection = () => {
     return(
-        <div className="flex w-full lg:w-1/2 px-4">
+        <div className="flex w-full md:w-[49%]">
             <div className="w-full">
                 <h3 className="text-primary-Default">Settings</h3>
-                <div className="lg:w-11/12 py-4 my-6 px-5 flex flex-col text-white gap-y-16 bg-primary-Default rounded-xl relative ">
+                <div className="md:w-full  sm:w-10/12 lg:py-4 py-3 px-3 my-6 lg:px-5 flex flex-col text-white gap-y-16 bg-primary-Default rounded-xl ">
                     <div className="flex items-center justify-between">
                         <p className="subtitle1">Hostel UI</p>
                         <div>
@@ -14,25 +14,25 @@ const CardSection = () => {
                         </div>
                     </div>
                     <div className="flex flex-col gap-y-4">
-                        <p className="font-normal text-xl">7812 2139 0823 XXXX</p>
+                        <p className="font-normal lg:text-xl text-lg">7812 2139 0823 XXXX</p>
                         <div className="flex gap-x-4">
                             <div>
                                 <p className="text-xs">VALID THRU</p>
-                                <p className="">05/24</p>
+                                <p className="text-sm">05/24</p>
                             </div>
                             <div>
                                 <p className="text-xs">CVV</p>
-                                <p>09X</p>
+                                <p className="text-sm">09X</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="px-5 py-5 bg-white rounded-lg">
+                <div className="lg:px-5 lg:py-5 px-3 py-5 bg-white rounded-lg">
                     <div>
-                        <div className="flex justify-between items-center py-4">
-                            <h5 className="text-Neutral-black">Payment Method</h5>
+                        <div className="flex justify-between items-center py-2">
+                            <h5 className="text-Neutral">Payment Method</h5>
                             <button className="bg-primary-Default text-white
-                            py-2 px-4 rounded-lg">Add New Card</button>
+                            py-2 lg:px-4 px-2 text-sm lg:text-xs rounded-lg">Add New Card</button>
                         </div>
                         <form className="flex flex-col gap-y-5">
                             <label className="body2 flex flex-col gap-y-3">

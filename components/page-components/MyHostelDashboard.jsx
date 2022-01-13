@@ -47,9 +47,9 @@ const MyHostelDashboard = () => {
         <h3 className="text-primary-Default">My Hostel</h3>
         <UserComponent />
       </div>
-      <div className="flex justify-between items-center py-4">
+      <div className="flex justify-between items-center py-6">
         <h5 className="text-Neutral-black">My Hostel</h5>
-        <button className="px-5 py-2 rounded-lg bg-primary-Default text-white">
+        <button className="px-4 py-1 rounded-lg bg-primary-Default text-white">
           Add New
         </button>
       </div>

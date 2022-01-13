@@ -22,7 +22,7 @@ const HostelRevenue = () => {
       </div>
       <div className="flex flex-col gap-y-6 md:flex-row justify-between mt-4">
         <div className="p-4 w-full md:w-3/5 bg-white rounded-xl">
-          <OverallGraph points={points} name="Hostel Revenue " />
+          <OverallGraph points={points} name="Hostel Revenue "/>
         </div>
         <div className="md:w-2/6 w-full bg-white px-2 py-4 rounded-xl">
           <CircularProgressBar />

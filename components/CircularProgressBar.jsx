@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
@@ -35,7 +33,7 @@ const OverallGraph = ({ points, name }) => {
   })
 
   return (
-    <div className="mixed-chart">
+    <div className="mixed-chart border-2">
       <Chart
         options={state.options}
         series={state.options.series}
