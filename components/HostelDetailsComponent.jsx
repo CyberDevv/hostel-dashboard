@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import { CircularProgressbar } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
-const percent = 36
-
 const HostelDetailsComponent = ({ detail }) => {
   return (
     <Link href={`/myHostel/${detail.name}`}>
-      <a className="bg-primary-Lightest flex flex-col gap-y-8 rounded-lg px-3 py-4 w-w-3/10">
+      <a className={`flex flex-col gap-y-8 rounded-lg p-4 w-full sm:w-[48%] md:w-w-3/10 ${detail.occupants < 600 ? 'bg-[#FEF6E2]': `${detail.occupants > 1000 ? 'bg-primary-Lightest' : 'bg-[#D9F0FF]'}` }`}>
         <div className="flex justify-between items-center">
           <h5>{detail.name}</h5>
           <h5 className="text-primary-Default">{detail.percent}</h5>
